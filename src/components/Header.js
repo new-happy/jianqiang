@@ -21,7 +21,7 @@ export default Header
 const Wrap = styled.div`
     display: flex;
     justify-content: space-between; 
-    padding: 158px 248px 106px 133px;
+    padding: 10% 15% 6.5% 8.1%;
     background:rgba(255,255,255,1);
     box-shadow:0px 1px 0px rgba(0,0,0,0.2);
 `

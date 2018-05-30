@@ -12,3 +12,6 @@ button {
     outline:none;
     border:none;
 }
+.App {
+    width: 100%;
+}
