@@ -1,7 +1,7 @@
 {
   "name": "jianqiang",
   "version": "0.1.0",
-  "homepage": "http://new-happy.github.io/happy/peter/jianqiang",
+  "homepage": "http://new-happy.github.io/jianqiang",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.1.0",

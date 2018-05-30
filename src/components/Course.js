@@ -2,6 +2,7 @@ import React,{ Component} from 'react'
 import styled from 'styled-components'
 import imgSrc from '../images/1111.jpg'
 import imgSrc1 from '../images/aa.png'
+import svg from '../images/fenlei.svg'
 import Sidebar from './Sidebar'
 
  class Course extends Component {
@@ -59,7 +60,9 @@ import Sidebar from './Sidebar'
   render () {
       const { navs,courses } = this.state
       const nav = navs.map( (t,i) => {
-          return <button className={`${this.state.num === i && 'active'}`} key={i} onClick={()=>this.handleClick(i)} >{t}</button>
+          return <button className={`${this.state.num === i && 'active'}`}
+          key={i} onClick={()=>this.handleClick(i)} >
+          {t}</button>
       })
       const course = courses.map( t => {
           return <Cards key={t.id}>
@@ -106,6 +109,7 @@ const Nav = styled.div`
         background:rgba(255,255,255,1);
         box-shadow:0px 1px 0px rgba(0,0,0,0.07);
         border-radius:13px;
+        background: url('../images/fenlei.svg');
     } 
     .active {
         background:rgba(0,202,183,1);

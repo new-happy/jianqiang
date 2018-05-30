@@ -33,6 +33,7 @@ const Text = styled.div`
        font-family:PingFangSC-Medium;
        color:rgba(78,76,76,1);
        line-height:62px;
+       margin-bottom:15px;
     }
     p {
        font-size:24px;
@@ -47,5 +48,5 @@ const Button = styled.button`
     box-shadow:0px 2px 0px rgba(0,0,0,0.5);
     border-radius:5px;
     padding:22px 71px;
-    margin-top:86px;
+    margin-top:66px;
 `

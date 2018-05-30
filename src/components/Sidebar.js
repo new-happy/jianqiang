@@ -29,9 +29,11 @@ export default Sidebar
 const Wrap = styled.div`
     width:18%;
     position: absolute;
+    top:231px;
     display: flex;
     flex-direction: column;
     padding:36px 0;
+    margin-left: 3%;
     background:rgba(255,255,255,1);
     box-shadow:0px 1px 0px rgba(0,0,0,0.2);
     div {
